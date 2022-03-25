@@ -26,16 +26,21 @@ namespace AccessModifiertwoConsoleApp.Models
             }
             set
             {
-                if (value < 0)
+                if (value < 0 || value >100)
                 {
-                    Console.WriteLine("Point mənfi ola bilmez");
-                    return;
-                }
-                else if (value > 100)
-                {
-                    Console.WriteLine("Yüzdən çox ola bilmez");
-                    return;
-                }
+                L4:    Console.WriteLine("0-100 aralığında xal daxil edin: ");
+                    string xal=Console.ReadLine();
+                    double xall=Convert.ToDouble(xal);
+                    value=xall;
+                    if (value < 0 || value > 100)
+                    {
+                        goto L4;
+                    }
+                    else
+                    {
+                        _point = value;
+                    }
+                }              
                 else
                 {
                     _point = value;

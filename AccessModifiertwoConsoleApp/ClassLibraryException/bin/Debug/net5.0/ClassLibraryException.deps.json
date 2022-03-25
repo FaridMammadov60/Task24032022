@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "AccessModifiertwoConsoleApp/1.0.0": {
-        "dependencies": {
-          "ClassLibraryException": "1.0.0"
-        },
-        "runtime": {
-          "AccessModifiertwoConsoleApp.dll": {}
-        }
-      },
       "ClassLibraryException/1.0.0": {
         "runtime": {
           "ClassLibraryException.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "AccessModifiertwoConsoleApp/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "ClassLibraryException/1.0.0": {
       "type": "project",
       "serviceable": false,

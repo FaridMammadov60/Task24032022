@@ -14,3 +14,22 @@ C:\Users\farid\Desktop\New folder\AccessModifiertwoConsoleApp\AccessModifiertwoC
 C:\Users\farid\Desktop\New folder\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.pdb
 C:\Users\farid\Desktop\New folder\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.genruntimeconfig.cache
 C:\Users\farid\Desktop\New folder\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\ref\AccessModifiertwoConsoleApp.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\AccessModifiertwoConsoleApp.exe
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\AccessModifiertwoConsoleApp.deps.json
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\AccessModifiertwoConsoleApp.runtimeconfig.json
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\AccessModifiertwoConsoleApp.runtimeconfig.dev.json
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\AccessModifiertwoConsoleApp.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\AccessModifiertwoConsoleApp.pdb
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\ClassLibraryException.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\bin\Debug\net5.0\ClassLibraryException.pdb
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.csproj.AssemblyReference.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.AssemblyInfoInputs.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.AssemblyInfo.cs
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.csproj.CopyComplete
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\refint\AccessModifiertwoConsoleApp.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.pdb
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\AccessModifiertwoConsoleApp.genruntimeconfig.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp\obj\Debug\net5.0\ref\AccessModifiertwoConsoleApp.dll

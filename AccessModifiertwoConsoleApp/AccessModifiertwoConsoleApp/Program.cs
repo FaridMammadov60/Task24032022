@@ -10,7 +10,7 @@ namespace AccessModifiertwoConsoleApp
         {
             Console.OutputEncoding = Encoding.Unicode;
             Console.InputEncoding = Encoding.Unicode;
-            Person adam = new Person("Fərid", 30)
+            Person adam = new Person("fer", 70)
             {
                 Surname ="Məmmədov"
             };
@@ -19,7 +19,7 @@ namespace AccessModifiertwoConsoleApp
             Console.WriteLine("-------------------------");
 
             Console.WriteLine("-------------------------");
-            Student telebe = new Student("Həsən", 18, 99.90)
+            Student telebe = new Student("Həsən", 180, 99.90)
             {
                 Surname = "Məmmədzadə"
             };

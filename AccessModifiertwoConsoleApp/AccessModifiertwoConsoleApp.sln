@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiertwoConsoleApp", "AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp.csproj", "{61138991-7330-4FDD-8662-7211E3CC5D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiertwoConsoleApp", "AccessModifiertwoConsoleApp\AccessModifiertwoConsoleApp.csproj", "{61138991-7330-4FDD-8662-7211E3CC5D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryException", "ClassLibraryException\ClassLibraryException.csproj", "{69F0E784-8E03-474B-9450-C7E4ECC0D786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{61138991-7330-4FDD-8662-7211E3CC5D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61138991-7330-4FDD-8662-7211E3CC5D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61138991-7330-4FDD-8662-7211E3CC5D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F0E784-8E03-474B-9450-C7E4ECC0D786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F0E784-8E03-474B-9450-C7E4ECC0D786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F0E784-8E03-474B-9450-C7E4ECC0D786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F0E784-8E03-474B-9450-C7E4ECC0D786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

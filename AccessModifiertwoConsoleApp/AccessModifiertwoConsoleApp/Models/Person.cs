@@ -28,14 +28,25 @@ namespace AccessModifiertwoConsoleApp.Models
             }
             set
             {
-                if (IlkHerf(value) == true && value.Length >= 3 && value.Length <= 30)
+
+                if (IlkHerf(value) && value.Length >= 3 && value.Length <= 30)
                 {
                     _name = value;
-                }                
+                }
                 else
                 {
-                    Console.WriteLine("sehv");
-                    return;
+                L1: Console.Write("İlk hərfi böyük, uzunluğu minumum 3 maksimum 30 simvollu ad daxil edin:");
+
+                    string ad = Console.ReadLine();
+                    value = ad;
+                    if (IlkHerf(value) && value.Length >= 3 && value.Length <= 30)
+                    {
+                        _name = value;
+                    }
+                    else
+                    {
+                        goto L1;
+                    }
                 }
             }
         }
@@ -47,14 +58,24 @@ namespace AccessModifiertwoConsoleApp.Models
             }
             set
             {
-                if (IlkHerf(value) == true && value.Length >= 3 && value.Length <= 35)
+                if (IlkHerf(value) && value.Length >= 3 && value.Length <= 35)
                 {
                     _surname = value;
                 }
                 else
                 {
-                    Console.WriteLine("sehv");
-                    return;
+                L2: Console.Write("İlk hərfi böyük, uzunluğu minumum 3 maksimum 30 simvollu soyad daxil edin:");
+
+                    string soyad = Console.ReadLine();
+                    value = soyad;
+                    if (IlkHerf(value) && value.Length >= 3 && value.Length <= 30)
+                    {
+                        _surname = value;
+                    }
+                    else
+                    {
+                        goto L2;
+                    }
                 }
             }
         }
@@ -66,15 +87,22 @@ namespace AccessModifiertwoConsoleApp.Models
             }
             set
             {
-                if (value < 0)
+
+                if (value < 0 || value > 150)
                 {
-                    Console.WriteLine("Yaş mənfi ola bilmez");
-                    return;
-                }
-                else if (value > 255)
-                {
-                    Console.WriteLine("Yaş bu qədər ola bilmez");
-                    return;
+                    Console.WriteLine("Yaşı doğru daxil edin: ");
+                L3: string yasi = Console.ReadLine();
+                    byte yas = Convert.ToByte(yasi);
+                    value = yas;
+                    if (value < 0 && value > 150)
+                    {
+                        Console.WriteLine("Yaşı doğru daxil edin: ");
+                        goto L3;
+                    }
+                    else
+                    {
+                        _age = value;
+                    }
                 }
                 else
                 {
@@ -96,6 +124,7 @@ namespace AccessModifiertwoConsoleApp.Models
             int upperCount = Regex.Matches(name, @"[A-Z]").Count;
             if (upperCount == 0)
             {
+                Console.WriteLine("Diqqət ilk herf boyuk deyil");
                 return false;
             }
             return true;

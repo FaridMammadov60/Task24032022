@@ -1,0 +1,12 @@
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\bin\Debug\net5.0\ClassLibraryException.deps.json
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\bin\Debug\net5.0\ClassLibraryException.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\bin\Debug\net5.0\ClassLibraryException.pdb
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.csproj.AssemblyReference.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.AssemblyInfoInputs.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.AssemblyInfo.cs
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.csproj.CoreCompileInputs.cache
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\refint\ClassLibraryException.dll
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ClassLibraryException.pdb
+C:\Users\farid\Desktop\New folder (2)\Task24032022\AccessModifiertwoConsoleApp\ClassLibraryException\obj\Debug\net5.0\ref\ClassLibraryException.dll

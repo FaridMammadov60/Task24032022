@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "ClassLibraryException/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/ClassLibraryException.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibraryException.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "ClassLibraryException/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibraryException/ClassLibraryException.csproj",
-      "msbuildProject": "../ClassLibraryException/ClassLibraryException.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "ClassLibraryException >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\farid\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\AccessModifiertwoConsoleApp\\AccessModifiertwoConsoleApp.csproj",
-      "projectName": "AccessModifiertwoConsoleApp",
-      "projectPath": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\AccessModifiertwoConsoleApp\\AccessModifiertwoConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\ClassLibraryException\\ClassLibraryException.csproj",
+      "projectName": "ClassLibraryException",
+      "projectPath": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\ClassLibraryException\\ClassLibraryException.csproj",
       "packagesPath": "C:\\Users\\farid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\AccessModifiertwoConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\ClassLibraryException\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,11 +38,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\ClassLibraryException\\ClassLibraryException.csproj": {
-              "projectPath": "C:\\Users\\farid\\Desktop\\New folder (2)\\Task24032022\\AccessModifiertwoConsoleApp\\ClassLibraryException\\ClassLibraryException.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibraryException;
+using System;
 using System.Text.RegularExpressions;
 
 namespace AccessModifiertwoConsoleApp.Models
@@ -18,7 +19,7 @@ namespace AccessModifiertwoConsoleApp.Models
             this.Age = age;
         }
         #endregion
-
+        Class1 cs =new Class1();    
         #region Property
         public string Name
         {
@@ -87,27 +88,35 @@ namespace AccessModifiertwoConsoleApp.Models
             }
             set
             {
-
-                if (value < 0 || value > 150)
+                try
                 {
-                    Console.WriteLine("Yaşı doğru daxil edin: ");
-                L3: string yasi = Console.ReadLine();
-                    byte yas = Convert.ToByte(yasi);
-                    value = yas;
-                    if (value < 0 && value > 150)
+                    if (value < 0 || value > 150)
                     {
                         Console.WriteLine("Yaşı doğru daxil edin: ");
-                        goto L3;
+                    L3: string yasi = Console.ReadLine();
+                        byte yas = Convert.ToByte(yasi);
+                        value = yas;
+                        if (value < 0 && value > 150)
+                        {
+                            Console.WriteLine("Yaşı doğru daxil edin: ");
+                            goto L3;
+                        }
+                        else
+                        {
+                            _age = value;
+                        }
                     }
                     else
                     {
                         _age = value;
                     }
                 }
-                else
+                catch (Exception ex)
                 {
-                    _age = value;
+                    Console.WriteLine(ex.Message);   
                 }
+
+               
             }
         }
         #endregion

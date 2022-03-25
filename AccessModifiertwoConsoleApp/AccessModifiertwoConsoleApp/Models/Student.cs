@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccessModifiertwoConsoleApp.Models
 {
-    internal class Student:Person
+    internal class Student : Person
     {
         #region Fields
         double _point;
@@ -26,24 +22,32 @@ namespace AccessModifiertwoConsoleApp.Models
             }
             set
             {
-                if (value < 0 || value >100)
+                try
                 {
-                L4:    Console.WriteLine("0-100 aralığında xal daxil edin: ");
-                    string xal=Console.ReadLine();
-                    double xall=Convert.ToDouble(xal);
-                    value=xall;
                     if (value < 0 || value > 100)
                     {
-                        goto L4;
+                    L4: Console.WriteLine("0-100 aralığında xal daxil edin: ");
+                        string xal = Console.ReadLine();
+                        double xall = Convert.ToDouble(xal);
+                        value = xall;
+                        if (value < 0 || value > 100)
+                        {
+                            goto L4;
+                        }
+                        else
+                        {
+                            _point = value;
+                        }
                     }
                     else
                     {
                         _point = value;
                     }
-                }              
-                else
+                }
+                catch (Exception ex)
                 {
-                    _point = value;
+
+                    Console.WriteLine(ex.Message);
                 }
             }
         }
